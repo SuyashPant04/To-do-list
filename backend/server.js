@@ -18,8 +18,8 @@ app.get("/", (req, res) => {
   res.send("API is running...");
 });
 
-app.get("/hello", (req, res) => {
-    res.send("hello bhai");
+app.get("/hi", (req, res) => {
+    res.send("hi bhai");
   });
 
 app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
